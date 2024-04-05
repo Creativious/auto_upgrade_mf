@@ -3,7 +3,6 @@ import os
 import pyautogui
 import keyboard
 import time
-import mouse
 import pydirectinput
 
 configuration = {
