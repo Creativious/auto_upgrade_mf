@@ -170,6 +170,9 @@ def main_loop():
 
 if __name__ == "__main__":
     init_configuration()
+    reset_configuration = input("Do you want to reset the configuration? (y/n) ")
+    if reset_configuration.lower() == "y":
+        ask_for_configuration_values()
     if not is_cancelled:
         print("Starting main loop in 5 seconds")
         time.sleep(5)
